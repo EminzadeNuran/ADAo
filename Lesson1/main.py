@@ -230,34 +230,145 @@
 
 # Passworld Generation
 
-import random
-import string
+# import random
+# import string
 
-Password_length = int(input("Password uzunlugunu daxil edin: "))
-Password_letter_count = int(input("Password herf sayini daxil edin: "))
-Password_number_count = int(input("Password reqem sayini daxil edin: "))
-Password_symbol_count = int(input("Password simvol sayini daxil edin: "))
+# Password_length = int(input("Password uzunlugunu daxil edin: "))
+# Password_letter_count = int(input("Password herf sayini daxil edin: "))
+# Password_number_count = int(input("Password reqem sayini daxil edin: "))
+# Password_symbol_count = int(input("Password simvol sayini daxil edin: "))
 
-password = ""
+# password = ""
 
-for i in range(Password_letter_count):
-    password += random.choice(string.ascii_letters)
+# for i in range(Password_letter_count):
+#     password += random.choice(string.ascii_letters)
 
-for i in range(Password_number_count):
-    password += random.choice(string.digits)
+# for i in range(Password_number_count):
+#     password += random.choice(string.digits)
 
-for i in range(Password_symbol_count):
-    password += random.choice(string.punctuation)
+# for i in range(Password_symbol_count):
+#     password += random.choice(string.punctuation)
     
 
-password_list = list(password)
-random.shuffle(password_list)
-password = "".join(password_list)
+# password_list = list(password)
+# random.shuffle(password_list)
+# password = "".join(password_list)
 
-print(password)
+# print(password)
+
+# x = int(input("X: "))
+# y= int(input("Y: "))
+
+# if x< y:
+#     if x== y:
+#         y=2 * (x - y)
+#     else:
+#         y = 2 * y-5
+# else:
+#     y= 6 +2 * y
+
+# print(y)
 
 
 
 
 
+# a = int(input("A: "))
+# b = int(input("B: "))
 
+# if a <= b:
+#     x = 4 * a + 7
+# else:
+#     x = 3 * b + a
+
+# print(x)
+
+
+# y=7
+# x= 13
+# x= 3* y
+# y= x-y
+# if x==y+7 and x%4==0:
+#     if (x-x%y)%7==0:
+#         print("A")
+#     else:
+#         print("B")
+# elif x == y+7:
+#     if y%7==0:
+#         print("C")
+#     else:
+#         print("D")
+# else:
+#     print("E")
+
+# rock_paper_scissors = ["""
+#                         1.Rock
+#                         2.Paper
+#                         3.Scissors
+#                        """]
+
+# import random
+
+# while True:
+#     user_choice = int(input("Enter your choice: "))
+#     computer_choice = random.randint(1,3)
+#     if user_choice == computer_choice:
+#         print("Draw")
+#     elif user_choice == 1 and computer_choice == 2:
+#         print("Computer wins")
+#     elif user_choice == 2 and computer_choice == 3:
+#         print("Computer wins")
+#     elif user_choice == 3 and computer_choice == 1:
+#         print("Computer wins")
+#     else:
+#         print("User wins")  
+        
+#     play_again = input("Do you want to play again? (yes/no): ")
+#     if play_again.lower() != "yes":
+#         break
+
+# dictionary 
+
+
+#  key ,value
+
+
+# adlar= {
+#     "ad": "Ali",
+#     "soyad": "veli",
+#     "yas": 20
+# }
+
+# print (adlar["ad"])
+
+# print (adlar.values())
+# print (adlar.keys())
+# print (adlar.items())
+
+# adlar['seher'] = "Baki"
+
+# print (adlar)
+
+# tuple
+
+# soyadlar = ("Nuran","Eminzada","Nurzada") #deyisilmeyen
+
+
+# set
+
+# adlar = {"Nuran","Eminzada","Nurzada","Eminzada"}
+
+
+# print(adlar)
+
+# class Solution:
+#     def romanToInt(self, s: str) -> int:
+#         roman= {"I":1,"V":5,"X":10,"L":50,"C":100,"D":500,"M":1000}
+#         result = 0
+#         for i in range(len(s)-1):
+#             if roman[s[i]] < roman[s[i+1]]:
+#                 result -= roman[s[i]]
+#             else:
+#                 result += roman[s[i]]
+#         return result + roman[s[-1]]
+    
